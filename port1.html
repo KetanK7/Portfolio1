@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ketankumar's Portfolio</title>
+  <link rel="stylesheet" href="port1.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+</head>
+
+<body>
+  <header class="hero">
+    <div class="hero-left">
+      <h2>Hello, I'm</h2>
+      <h1 class="animated-name">Ketankumar Kokitkar</h1>
+      <p>
+        I'm a passionate Web Developer and Java Full Stack Intern currently in my final year of Computer Science Engineering.
+      </p>
+    </div>
+    <div class="hero-right">
+      <img src="k2.bg.png" alt="Developer Photo" class="pic" />
+    </div>
+  </header>
+
+  <main>
+    <section>
+      <div class="about" data-aos="fade-up">
+        <h2>About Me</h2>
+        <p>
+          I love building modern, user-friendly websites and web apps. My journey started with curiosity and turned into a passion. I enjoy working with HTML, CSS, JavaScript, and backend tech like Python & Java.
+        </p>
+      </div>
+    </section>
+
+    <section>
+      <div class="skills" data-aos="fade-up" data-aos-delay="200">
+        <h2>Skills</h2>
+        <ul class="skills-inline">
+          <li><i class="fab fa-html5"></i> HTML5</li>
+          <li><i class="fab fa-css3-alt"></i> CSS3</li>
+          <li><i class="fab fa-js"></i> JavaScript</li>
+          <li><i class="fab fa-python"></i> Python</li>
+          <li><i class="fab fa-java"></i> Java</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="projects-head">
+      <h2>Projects</h2>
+      <div class="projects">
+        <div class="project" data-aos="zoom-in">
+          <h3>Weather App</h3>
+          <p>
+            A responsive weather app using Python and real-time weather APIs to display temperature, humidity, and more.
+          </p>
+        </div>
+        <div class="project" data-aos="zoom-in" data-aos-delay="200">
+          <h3>Cashmate App</h3>
+          <p>
+            A daily expense tracking Android app with category management, insights, and a clean user interface.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <div class="contact-container">
+        <form action="https://formspree.io/f/your-form-id" method="POST" class="contact-form">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" required />
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea name="message" id="message" rows="5" required></textarea>
+          </div>
+          <button type="submit">Send</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-content">
+      <div class="footer-left">
+        <h2>Contact Info</h2>
+        <p>Email: kokitkarketankumar111@gmail.com</p>
+        <p>Phone: 9067451380</p>
+      </div>
+      <div class="footer-right">
+        <div class="social-icons">
+          <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+          <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+    </div>
+    <p class="footer-bottom">© 2025 Ketankumar Kokitkar</p>
+  </footer>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>AOS.init();</script>
+</body>
+</html>
